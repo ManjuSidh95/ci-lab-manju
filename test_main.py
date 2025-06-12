@@ -5,5 +5,9 @@ def test_penguin_dataset_shape():
     df = pd.read_csv(url)
     assert df.shape == (344, 7)
 
+# Bonus: keep your previous example test
+def test_add():
+    assert (2 + 3) == 5
+
 
 
